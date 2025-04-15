@@ -1,7 +1,8 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #222; /* Dark Grey */
+  background: url('images/studio.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ header {
 }
 
 .logo {
-  width: 150px;
+  width: 300px;
   display: block;
   margin: 0 auto;
 }
@@ -90,4 +91,11 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #111;
+}
+
+.gallery-wrapper {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
 }
